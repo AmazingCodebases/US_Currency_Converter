@@ -74,6 +74,31 @@ Dimes = Dimes + 1;
 return 0;
 }
 
+int Pennies_to_Quarters() {
+int Pennies = 0;
+int Quarters = 0;
+int PenniesPerQuarter = 0;
+int _0 = 0;
+int _1 = 0;
+
+
+PenniesPerQuarter = 25;
+_0 = 0;
+_1 = 1;
+
+cout << "How Many Pennies Do You Have?" << endl;
+cin >> Pennies;
+
+while (Pennies > Quarters) {
+Pennies = (Pennies) - (PenniesPerQuarter);
+Quarters = (Quarters) + (_1); }
+
+
+
+
+return 0;
+}
+
 int Nickels_to_Dimes() {
 int Nickels = 0;
 int Dimes = 0;
